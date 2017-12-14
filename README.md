@@ -2,7 +2,7 @@
 
 This is a Unity project exploring some basic functionality for Windows Mixed Reality motion controllers. It's a basic scene with a few platforms floating in space, which you can walk around on and interact with some objects.
 
-#Entering Play Mode in Editor
+# Entering Play Mode in Editor
 
 There is (or was last time I looked into it) a bug in the Unity implementation of Mixed Reality where playing a scene from the Unity editor doesn't give unity control of the motion controller information. To work around this, start playing in the editor like this:
 - Put the headset on, but in open position. 
@@ -11,7 +11,7 @@ There is (or was last time I looked into it) a bug in the Unity implementation o
 - Release the play button
 This was advice I found in the Windows MR forums when initially working on this project. I haven't checked recently for better solution, but will update here if I find one.
 
-#Play Instructions
+# Play Instructions
 
 As this is just a test project to get to grips with the basics of using the motion controller data in Unity there isn't any real gameplay as such, but there are some simple interactions.
 
@@ -25,6 +25,6 @@ Pointing the beam at the cubes and holding will draw them to you. When close, yo
 
 Pointing the beam at the top of the green platform will grow a stair case - just keep the beam pointed at the top of the highest stair. You can then walk up the stairs and continue to grow more. 
 
-#Technical Info
+# Technical Info
 
 Most of the info you'll need to work out how this fits together and works is in the code comments, and there isn't a huge amount of code. However feel free to contact me with any questions. 
